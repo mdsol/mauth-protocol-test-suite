@@ -1,0 +1,5 @@
+{
+  "verb": "GET",
+  "url": "/?%e1%88%b4=bar",
+  "body": null
+}
