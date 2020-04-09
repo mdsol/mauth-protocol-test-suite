@@ -1,0 +1,1 @@
+This case for binary request bodies is slightly different than the other cases. mAuth clients running this test should read in the [blank.jpeg](./blank.jpeg) file as the request body.
