@@ -4,7 +4,7 @@ This repo contains test cases for mAuth digital signature protocols and was crea
 
 ## Usage
 
-This repo should be copied into each mAuth client and run as part of the test suite for that mAuth client to ensure it conforms to the mAuth protocol specification. mAuth clients are expected to write some glue code that will allow them to run the cases provided here with their testing tool (Rspec etc).
+This repo should be added to each mAuth client via git submodules (see documentation [here](https://git-scm.com/book/en/v2/Git-Tools-Submodules) and run as part of the test suite for that mAuth client to ensure it conforms to the mAuth protocol specification. mAuth clients are expected to write some glue code that will allow them to run the cases provided here with their testing tool (Rspec etc).
 
 ### Test Cases
 
