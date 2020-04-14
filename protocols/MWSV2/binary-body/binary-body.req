@@ -1,4 +1,5 @@
 {
   "verb": "POST",
-  "url": "/"
+  "url": "/",
+  "body_filepath": "./sample.jpeg"
 }
