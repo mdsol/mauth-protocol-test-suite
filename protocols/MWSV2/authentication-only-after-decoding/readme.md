@@ -1,0 +1,1 @@
+This is an authentication only case to handle the possibility that the authenticating mAuth client may get a URL that has already been decoded by a web server. 
