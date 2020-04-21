@@ -1,0 +1,5 @@
+{
+  "verb": "POST",
+  "url": "/?key=value&key2=value2",
+  "body": "request body string"
+}
