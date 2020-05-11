@@ -1,5 +1,5 @@
 {
   "verb": "GET",
-  "url": "/?%b1=val&%B2=val&b=val&B=val",
+  "url": "/?%c2%b1=val&%C2%B2=val&c=val&C=val",
   "body": null
 }
