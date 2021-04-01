@@ -1,0 +1,51 @@
+# This is your base factbook, please update all values in <>
+# Remove all the unnecesary extra comments from the file.
+
+# This YAML file starts starts with '---', which is the separator for YAML documents
+# within the same file. Learn more: https://yaml.org/spec/1.2/spec.html#id2800401
+# If your repository contains information about more than one component, you can use multiple
+# YAML documents in this same file to document each of them.
+# For instance you may have one API component and an UI component or multiple libraries as different components.
+---
+# apiVersion: backstage.io/v1alpha1
+# kind: Component
+# spec:
+#   type: other # web_backend == only API, web_frontend == only UI, web_fullstack == both, mobile == mobile app, library, other
+#   lifecycle: production # values: experimental, production or deprecated. `production` means development towards production even if not in production yet.
+#   owner: team16@mdsol.com
+metadata:
+  json_schema: "https://github.com/mdsol/platform-standards/tree/master/schemas/v1alpha1.schema.json"
+  name: MAuth Protocol Test Suite
+  description: A language agnostic set pf test cases for mAuth protocols.
+  aliases: ["mauth-protocol-test-suite", "Study Application Authorizer Service"]
+# Uncomment and fill in the security section if this repository holds the codebase of a service.
+#  security:
+#    authentication: [mauth] # List all the authentication methods used in our service. See the json schema for options.
+#    network_accessiblity: [private] # `private` == internal vpn only, `public` == directly accesible outside the vpn
+#    data_types: [clinical] # List the type of data used in your service.
+  teams:
+    - name: "Team 16"
+      number: 16
+      email: team16@mdsol.com
+  people:
+    # Architect must always be one of the people in this project. Add more if you want from:
+    # "business analyst", "engineering manager", "engineer", "testing manager", "tester", "architect", "product owner", "project manager",
+    # "service delivery", "team", "test manager"
+    - role: "architect"
+      email: ejennings@mdsol.com
+  channels:
+    - url: https://mdsol.slack.com/messages/team16
+      automated_messaging: false
+      role: slack
+  # pipelines:
+  #   - url: https://travis-ci.com/github/mdsol/
+  #     role: Integration
+  # - url: Link to your GoCD pipeline
+  #   role: Deploy
+  annotations:
+    docs: #TODO once we have customer facing confluence space
+    # medistrano:
+    # jira:
+    area: platform
+    # product: <choose_one> uncomment this if this component is part of a bigger one, for instance it is a piece of Rave
+
