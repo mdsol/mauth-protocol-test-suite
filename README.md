@@ -1,6 +1,6 @@
 # mauth-protocol-test-suite
 
-This repo contains test cases for mAuth digital signature protocols and was created to aid in the development of mAuth clients in a language agnostic way. Currently the repo only contains cases for the MWSV2 protocol as described [here](https://learn.mdsol.com/display/CA/MAuth+Protocol+V2+Specification). The repo also serves as an description of mAuth protocol specifications with examples.
+This repo contains test cases for mAuth digital signature protocols and was created to aid in the development of mAuth clients in a language agnostic way. Currently the repo contains cases for the MWS and MWSV2 protocols. The MWSV2 protocol specification is described [here](https://learn.mdsol.com/display/CA/MAuth+Protocol+V2+Specification). The repo also serves as an description of mAuth protocol specifications with examples.
 
 ## Usage
 
